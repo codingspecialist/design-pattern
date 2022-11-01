@@ -1,11 +1,11 @@
-package ex01;
+package ex04;
 
 /*
- * 전략 패턴
+ * 싱글톤 패턴
  */
 public class App {
     public static void main(String[] args) {
-        DoorMan doorMan = new DoorMan();
+        DoorMan doorMan = DoorMan.getInstance();
         doorMan.쫒아내(new Cat());
     }
 }

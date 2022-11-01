@@ -1,5 +1,8 @@
 package ex03;
 
+/*
+ * 프록시 패턴
+ */
 public class App {
     public static void main(String[] args) {
         Mouse m = new Mouse();
