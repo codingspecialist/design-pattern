@@ -7,9 +7,15 @@ public class SmsNotifier implements Notifier {
         this.notifier = notifier;
     }
 
+    public SmsNotifier() {
+    }
+
     @Override
     public void send() {
-        notifier.send();
+        if (notifier != null) {
+            notifier.send();
+        }
+
         System.out.println("문자 알림");
     }
 }
