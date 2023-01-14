@@ -12,7 +12,6 @@ public class Publisher {
         try {
             for (int i = 1; i < 6; i++) {
                 Thread.sleep(1000);
-                System.out.print(".");
             }
         } catch (Exception e) {
             // TODO: handle exception
